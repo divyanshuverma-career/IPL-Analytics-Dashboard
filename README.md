@@ -43,7 +43,7 @@ The main objective of this project was to:
 
 - **Dataset Type:** IPL Ball-by-Ball Dataset
 - **Seasons Covered:** 2022–2025
-- **Source:** Kaggle IPL Dataset
+- **Source:** Kaggle IPL Dataset (https://drive.google.com/drive/folders/1VWj4AYcZI6ReR-avey9v297lVbxs3yL2?usp=sharing)
 - **Total Records:** ~70,000+ Ball-by-Ball Entries
 
 ### Dataset Includes:
@@ -77,35 +77,11 @@ Power BI Data Modeling
      ↓
 Dashboard Development
      ↓
-Insights & Storytelling
+Insights
 ```
 
----
 
-# ✅ 1. Data Validation
-
-Before dashboard creation, the dataset was validated to ensure:
-
-- Correct number of matches per season
-- Proper innings structure
-- Venue consistency
-- Overs consistency
-- Null value handling
-- Duplicate removal
-- Super over identification
-
-### Validation Checks Performed
-
-- Match count verification
-- Maximum over validation (`0–19`)
-- Missing innings detection
-- Team consistency checks
-- Venue standardization
-- Super over handling
-
----
-
-# 🧹 2. Data Cleaning & Transformation
+# 🧹 1. Data Cleaning & Transformation
 
 The raw dataset was cleaned and transformed using Python.
 
@@ -132,7 +108,7 @@ Handled:
 
 ---
 
-# 🏗️ 3. Analytics-Ready Tables Created
+# 🏗️ 2. Analytics-Ready Tables Created
 
 The raw dataset was transformed into multiple structured tables for Power BI analysis.
 
@@ -152,7 +128,6 @@ Main granular dataset where:
 - Display Over Formatting
 
 ### Used For
-- Phase Analysis
 - Match Trends
 - Batting Insights
 - Bowling Insights
@@ -273,7 +248,7 @@ Provides a high-level overview of IPL analytics.
 - Top Bowlers
 - Toss Decision Analysis
 - Venue-wise Average Score
-- Phase-wise Runs Distribution
+
 
 ---
 
@@ -299,19 +274,16 @@ Focused on batting and bowling performance.
 ## Features
 - Orange Cap Leaders
 - Purple Cap Leaders
-- Strike Rate Analysis
-- Economy Rate Analysis
 - Boundary Percentage
 - Dot Ball Percentage
-- Scatter Plot Analytics
 
 ---
 
-# 📈 6. Key Insights Generated
+# 📈 6. Key Insights 
 
 Some major insights observed from the dashboard:
 
-- Death overs contribute the highest scoring rate
+
 - Batting strike rates increased significantly in recent seasons
 - Certain venues consistently produce higher first innings scores
 - Teams winning toss often prefer chasing
@@ -329,7 +301,6 @@ Created custom measures for:
 - Total Wickets
 - Win Percentage
 - Average Venue Score
-- Boundary Metrics
 
 ---
 
@@ -339,18 +310,6 @@ Created custom measures for:
 - Tooltips
 - Conditional Formatting
 - Interactive Visuals
-
----
-
-# 🎨 8. Dashboard Design Principles
-
-The dashboard was designed with focus on:
-
-- Clean Layout
-- Minimal Clutter
-- Consistent Colors
-- Interactive Storytelling
-- Professional Visual Hierarchy
 
 ---
 
@@ -369,33 +328,12 @@ IPL-Analytics-Dashboard/
 │
 ├── dashboard/
 │   ├── IPL_Dashboard.pbix
-│   └── IPL_Dashboard.pdf
-│
-├── images/
-│   ├── dashboard_overview.png
-│   ├── team_analysis.png
-│   └── player_analysis.png
 │
 ├── notebooks/
 │   └── data_cleaning.ipynb
 │
 ├── README.md
-│
-└── requirements.txt
 ```
-
----
-
-# 🚀 Future Improvements
-
-Possible future enhancements for this project:
-
-- Live IPL API Integration
-- Real-Time Dashboard Updates
-- Match Outcome Prediction
-- Advanced Player Analytics
-- Win Probability Models
-- Streamlit/Web Deployment
 
 ---
 
