@@ -451,10 +451,10 @@ This project helped strengthen my understanding of:
 # 🤝 Connect With Me
 
 ## LinkedIn
-(Add Your LinkedIn Profile)
+www.linkedin.com/in/divyanshuverma-career
 
 ## GitHub
-(Add Your GitHub Profile)
+https://github.com/divyanshuverma-career
 
 ---
 
