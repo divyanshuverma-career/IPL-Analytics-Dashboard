@@ -351,29 +351,6 @@ This project helped strengthen my understanding of:
 
 ---
 
-# 📸 Dashboard Screenshots
-
-## IPL Overview Dashboard
-
-```md
-![IPL Overview](images/dashboard_overview.png)
-```
-
-## Team Performance Dashboard
-
-```md
-![Team Analysis](images/team_analysis.png)
-```
-
-## Player Analysis Dashboard
-
-```md
-<img width="1121" height="626" alt="image" src="https://github.com/user-attachments/assets/b1682e61-fa19-42cc-8102-ed7fd0292ddd" />
-
-```
-
----
-
 # 📌 Project Files
 
 ## Power BI Dashboard
