@@ -368,7 +368,8 @@ This project helped strengthen my understanding of:
 ## Player Analysis Dashboard
 
 ```md
-![Player Analysis](images/player_analysis.png)
+<img width="1121" height="626" alt="image" src="https://github.com/user-attachments/assets/b1682e61-fa19-42cc-8102-ed7fd0292ddd" />
+
 ```
 
 ---
